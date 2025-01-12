@@ -61,7 +61,6 @@ public class Homework {
     // 112211 - true
     public boolean isPalindrome(String string) {
         for (int i = 0; i < string.length() / 2; i++) {
-            System.out.println(" " + string.charAt(i) + "   --    " + string.charAt((string.length() - 1) - i));
             if (string.charAt(i) != string.charAt((string.length() - 1) - i)) {
                 return false;
             }
